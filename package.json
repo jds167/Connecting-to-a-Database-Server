@@ -1,0 +1,26 @@
+{
+  "name": "connecting-to-a-database-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jds167/Connecting-to-a-Database-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jds167/Connecting-to-a-Database-Server/issues"
+  },
+  "homepage": "https://github.com/jds167/Connecting-to-a-Database-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
